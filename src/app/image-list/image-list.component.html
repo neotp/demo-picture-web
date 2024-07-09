@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+    <span>Image Gallery</span>
+  </mat-toolbar>
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>Images</mat-card-title>
+    </mat-card-header>
+    <mat-list>
+      <mat-list-item *ngFor="let image of images">
+        <img mat-list-avatar [src]="image.url" alt="Image">
+        <h3 mat-line>{{ image.name }}</h3>
+      </mat-list-item>
+    </mat-list>
+  </mat-card>
+  
