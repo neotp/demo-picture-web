@@ -9,15 +9,9 @@ import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-image-upload',
-  standalone: true,
+  // standalone: true,
   templateUrl: './image-upload.component.html',
   styleUrls: ['./image-upload.component.css'] ,
-  imports: [ MatToolbarModule,
-    MatButtonModule,
-    MatInputModule,
-    MatCardModule,
-    MatListModule, 
-    HttpClientModule]
 })
 export class ImageUploadComponent {
 

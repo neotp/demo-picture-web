@@ -8,15 +8,9 @@ import { MatListModule } from '@angular/material/list';
 import { HttpClientModule } from '@angular/common/http';
 @Component({
   selector: 'app-image-list',
-  standalone: true,
+  // standalone: true,
   templateUrl: './image-list.component.html',
   styleUrls: ['./image-list.component.css'] ,
-  imports: [ MatToolbarModule,
-    MatButtonModule,
-    MatInputModule,
-    MatCardModule,
-    MatListModule,
-    HttpClientModule ]
 })
 export class ImageListComponent{
 
